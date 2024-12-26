@@ -26,7 +26,7 @@ make_card_pdf = True
 make_info_pdf = True
 
 # Playlist link from spotify
-playlist_link = "https://open.spotify.com/playlist/4lCC0gzm1KsEai2Zjwnj4d?si=06f96c84ca434194"
+playlist_link = "link to your playlist"
 # Playlist folder name
 playlist_name = "song_guess_playlist_2"
 # Text in corner of cards
