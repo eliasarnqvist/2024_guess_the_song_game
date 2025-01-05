@@ -1,16 +1,16 @@
+import os
+import re
+import json
+import numpy as np
+import matplotlib.pyplot as plt
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import urllib.request
-import json
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF
-import os
-import re
-import numpy as np
-import matplotlib.pyplot as plt
 
 # %% SETTINGS
 
@@ -28,9 +28,9 @@ make_info_pdf = True
 # Playlist link from spotify
 playlist_link = "link to your playlist"
 # Playlist folder name
-playlist_name = "song_guess_playlist_2"
+playlist_name = "song_guess_playlist_1"
 # Text in corner of cards
-card_text = "playlist_2"
+card_text = "playlist_1"
 
 # %% ADVANCED SETTINGS
 
